@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #0ea5e9);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    background: rgba(0,0,0,0.4);
+}
+
+.container {
+    padding: 20px;
+}
+
+/* CARDS */
+.card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* INPUT BOX */
+.input-card {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 95%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* TRAFFIC ITEMS */
+.traffic-item {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* COLORS */
+.low {
+    background: #22c55e;
+}
+
+.medium {
+    background: #facc15;
+    color: black;
+}
+
+.high {
+    background: #ef4444;
+}
